@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun second_activity(view: View) {
-        val second_activ=Intent(this,MainActivity2::class.java)
-        startActivity(second_activ)
+    fun content_activity(view: View) {
+        val content_activ=Intent(this,ContentActivity::class.java)
+        startActivity(content_activ)
     }
     fun third_activity(view: View){
         val third_activ=Intent(this,MainActivity3::class.java)
