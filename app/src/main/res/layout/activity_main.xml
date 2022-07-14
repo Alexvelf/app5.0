@@ -7,6 +7,7 @@
 
 
     <androidx.appcompat.widget.SearchView
+<<<<<<< HEAD
         android:id="@+id/search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,6 +19,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+=======
+    android:id="@+id/search"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:translationX="40dp"
+    android:translationY="100dp"></androidx.appcompat.widget.SearchView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 1dd26429005ba346adffec304c66e08294c72f4f
         android:textColor="@color/purple_500"
         android:text="Я попал в ДТП. Что делать?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
