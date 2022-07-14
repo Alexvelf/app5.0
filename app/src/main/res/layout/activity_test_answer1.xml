@@ -8,8 +8,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TestAnswer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text="Вы - пешеход, самокат не транспортное средство"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
