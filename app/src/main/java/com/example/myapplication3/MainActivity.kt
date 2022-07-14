@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         button3.setOnClickListener {
-            val intent = Intent(this, QuestionsList::class.java)
+            val intent = Intent(this, TestQuestion1::class.java)
             intent.putExtra("button", 3)
             startActivity(intent)
         }

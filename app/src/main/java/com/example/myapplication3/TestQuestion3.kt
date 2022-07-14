@@ -1,0 +1,34 @@
+package com.example.myapplication3
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+
+class TestQuestion3 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_test_question3)
+
+        val firstButton = findViewById<Button>(R.id.button4)
+        firstButton.setOnClickListener {
+            val intent = Intent(this, TestAnswer2::class.java)
+            intent.putExtra("button", 1)
+            startActivity(intent)
+        }
+        val secondButton = findViewById<Button>(R.id.button5)
+        secondButton.setOnClickListener {
+            val intent = Intent(this, TestAnswer3::class.java)
+            intent.putExtra("button", 2)
+            startActivity(intent)
+        }
+
+        val thirdButton = findViewById<Button>(R.id.button6)
+        thirdButton.setOnClickListener {
+            val intent = Intent(this, TestAnswer4::class.java)
+            intent.putExtra("button", 3)
+            startActivity(intent)
+        }
+    }
+
+}
