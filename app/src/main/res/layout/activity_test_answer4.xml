@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestAnswer4">
+    tools:context=".test.TestAnswer4">
 
     <TextView
         android:id="@+id/textView"
-        android:text="Судя по текущей судебной практике, вы рассматриваетесь как  водитель мотоцикла (транспортное средство)"
+        android:text="@string/test_answer_motorcycle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

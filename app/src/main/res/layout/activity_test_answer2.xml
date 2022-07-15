@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestAnswer2">
+    tools:context=".test.TestAnswer2">
 
+    <!--        android:text="Вы - водитель велосипеда (транспортное средство) "-->
     <TextView
         android:id="@+id/textView"
         style="@style/TestAnswer"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Вы - водитель велосипеда (транспортное средство) "
+        android:text="@string/test_answer_bicycle"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

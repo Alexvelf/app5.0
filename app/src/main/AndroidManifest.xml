@@ -14,28 +14,28 @@
         android:theme="@style/Theme.MyApplication3"
         tools:targetApi="31">
         <activity
-            android:name=".TestAnswer4"
+            android:name=".test.TestAnswer4"
             android:exported="false" />
         <activity
-            android:name=".TestAnswer3"
+            android:name=".test.TestAnswer3"
             android:exported="false" />
         <activity
-            android:name=".TestAnswer2"
+            android:name=".test.TestAnswer2"
             android:exported="false" />
         <activity
-            android:name=".TestAnswer1"
+            android:name=".test.TestAnswer1"
             android:exported="false" />
         <activity
-            android:name=".TestQuestion3"
+            android:name=".test.TestQuestion3"
             android:exported="false" />
         <activity
-            android:name=".TestInfo1"
+            android:name=".test.TestInfo1"
             android:exported="false" />
         <activity
-            android:name=".TestQuestion2"
+            android:name=".test.TestQuestion2"
             android:exported="false" />
         <activity
-            android:name=".TestQuestion1"
+            android:name=".test.TestQuestion1"
             android:exported="false" />
         <activity
             android:name=".AnswerActivity"

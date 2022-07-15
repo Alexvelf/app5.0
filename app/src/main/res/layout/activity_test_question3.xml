@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestQuestion3">
+    tools:context=".test.TestQuestion3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Каковы мощность и максимальная скорость самоката?" />
+            android:text="@string/test_question3" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Меньше 250 Вт, меньше 25 км/ч " />
+                android:text="@string/test_question_item_first"
+                tools:ignore="NestedWeights" />
 
             <Button
                 android:id="@+id/button5"
@@ -46,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Больше 250Вт и меньше 4 кВт, меньше 50 км/ч " />
+                android:text="@string/test_question_item_second" />
 
             <Button
                 android:id="@+id/button6"
@@ -54,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Больше 4 кВт, больше 50 км/ч " />
+                android:text="@string/test_question_item_third" />
         </LinearLayout>
     </LinearLayout>
 
