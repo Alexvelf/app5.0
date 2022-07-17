@@ -85,4 +85,15 @@
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
+    <Button
+        android:id="@+id/home"
+        android:layout_width="132dp"
+        android:layout_height="73dp"
+        android:text="Домой"
+        android:translationY="530dp"
+        android:translationX="139dp"
+        android:onClick="home_activity"
+        tools:ignore="MissingConstraints" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 
 class ContactsActivity : AppCompatActivity() {
@@ -17,5 +18,9 @@ class ContactsActivity : AppCompatActivity() {
             val i = Intent(Intent.ACTION_VIEW, Uri.parse("http://ГИБДД.рф/"))
             startActivity(i)
         }
+    }
+    fun home_activity(view: View){
+        val Home_acitivity=Intent(this,MainActivity::class.java)
+        startActivity(Home_acitivity)
     }
 }

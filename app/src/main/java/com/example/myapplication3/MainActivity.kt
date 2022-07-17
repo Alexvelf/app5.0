@@ -3,6 +3,7 @@ package com.example.myapplication3
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -46,5 +47,10 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         db.close()
+    }
+
+    fun home_activity(view: View){
+        val Home_acitivity=Intent(this,MainActivity::class.java)
+        startActivity(Home_acitivity)
     }
 }

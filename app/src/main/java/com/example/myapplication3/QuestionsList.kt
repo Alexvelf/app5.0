@@ -44,6 +44,15 @@ class QuestionsList : AppCompatActivity() {
                 )
             }
         }
+        // home
+        val button1 = findViewById<Button>(R.id.home)
+
+        button1.setOnClickListener {
+            stack.removeAll(stack)
+            val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("button", 1)    // номер кнопки передается в следующий Activity (т. е. список вопросов), чтобы можно было понять, какая кнопка была нажата, и вывести нужные вопросы из базы
+            startActivity(intent)
+        }
 
         // кнопка для возвращения назад
         val back = findViewById<Button>(R.id.back)
