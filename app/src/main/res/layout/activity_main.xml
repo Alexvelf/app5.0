@@ -1,49 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button_for_car"
-        android:layout_width="228dp"
+
+    <androidx.appcompat.widget.SearchView
+<<<<<<< HEAD
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="#FF5722"
-        android:gravity="center"
-        android:text="Личный автомобиль"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:translationX="40dp"
+        android:translationY="100dp"></androidx.appcompat.widget.SearchView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+=======
+    android:id="@+id/search"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:translationX="40dp"
+    android:translationY="100dp"></androidx.appcompat.widget.SearchView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 1dd26429005ba346adffec304c66e08294c72f4f
+        android:textColor="@color/purple_500"
+        android:text="Я попал в ДТП. Что делать?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:translationX="70dp"
+        android:translationY="180dp" />
 
     <Button
-        android:id="@+id/button_for_kik"
-        android:layout_width="228dp"
+        android:onClick="third_activity"
+        android:id="@+id/button1_for_car"
+        android:layout_width="116dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="16dp"
         android:backgroundTint="#FF5722"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="Кикшеринг"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_for_car" />
+        android:text="На машине"
+        android:translationX="70dp"
+        android:translationY="230dp" />
 
     <Button
-        android:id="@+id/button_for_important"
-        android:layout_width="228dp"
+        android:onClick="third_activity"
+        android:id="@+id/button1_for_kik"
+        android:layout_width="126dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="16dp"
         android:backgroundTint="#FF5722"
-        android:text="Срочные вопросы"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_for_kik" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="На самокате"
+        android:translationX="230dp"
+        android:translationY="230dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:text="Вопросы по ПДД для"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:translationX="105dp"
+        android:translationY="300dp"/>
+    <Button
+        android:onClick="third_activity"
+        android:id="@+id/button2_for_car"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="Машины"
+        android:translationX="70dp"
+        android:translationY="340dp" />
+
+    <Button
+        android:onClick="third_activity"
+        android:id="@+id/button2_for_kik"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="Самоката"
+        android:translationX="230dp"
+        android:translationY="340dp" />
+
+    <Button
+        android:id="@+id/button_for_hot"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationX="10dp"
+        android:translationY="70dp"
+        android:text="Горячая линия"/>
+
+    <Button
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Формы претензий"
+        android:translationY="130dp"
+        android:translationX="10dp"/>
+
+    <Button
+        android:onClick="content_activity"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Общение с инспектором"
+        android:translationX="10dp"
+        android:translationY="190dp"></Button>
+    <include
+        layout="@layout/content_layout2"
+        android:foreground="@drawable/ic_launcher_background" />
+
+</FrameLayout>
