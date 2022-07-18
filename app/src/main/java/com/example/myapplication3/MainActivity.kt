@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.myapplication3.test.TestQuestion1
 
 class MainActivity : AppCompatActivity() {
     val db = DataBase(this)
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         button3.setOnClickListener {
-            val intent = Intent(this, QuestionsList::class.java)
+            val intent = Intent(this, TestQuestion1::class.java)
             intent.putExtra("button", 3)
             startActivity(intent)
         }
