@@ -15,7 +15,7 @@ class TestInfo1 : AppCompatActivity() {
             val intent = Intent(this, TestQuestion3::class.java)
             intent.putExtra("button", 1)
             startActivity(intent)
+            finish()
         }
     }
-
 }

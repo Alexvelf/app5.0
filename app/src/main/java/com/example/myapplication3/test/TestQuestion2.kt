@@ -15,12 +15,14 @@ class TestQuestion2 : AppCompatActivity() {
             val intent = Intent(this, TestAnswer1::class.java)
             intent.putExtra("button", 1)
             startActivity(intent)
+            finish()
         }
         val yesButton = findViewById<Button>(R.id.button2)
         yesButton.setOnClickListener {
             val intent = Intent(this, TestInfo1::class.java)
             intent.putExtra("button", 2)
             startActivity(intent)
+            finish()
         }
     }
 }

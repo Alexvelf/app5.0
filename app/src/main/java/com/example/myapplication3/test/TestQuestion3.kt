@@ -16,12 +16,14 @@ class TestQuestion3 : AppCompatActivity() {
             val intent = Intent(this, TestAnswer2::class.java)
             intent.putExtra("button", 1)
             startActivity(intent)
+            finish()
         }
         val secondButton = findViewById<Button>(R.id.button5)
         secondButton.setOnClickListener {
             val intent = Intent(this, TestAnswer3::class.java)
             intent.putExtra("button", 2)
             startActivity(intent)
+            finish()
         }
 
         val thirdButton = findViewById<Button>(R.id.button6)
@@ -29,6 +31,7 @@ class TestQuestion3 : AppCompatActivity() {
             val intent = Intent(this, TestAnswer4::class.java)
             intent.putExtra("button", 3)
             startActivity(intent)
+            finish()
         }
     }
 
