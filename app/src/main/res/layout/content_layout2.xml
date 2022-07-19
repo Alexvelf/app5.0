@@ -11,11 +11,19 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/white"
+<<<<<<< HEAD
         android:foreground="@mipmap/ic_launcher"
+=======
+        android:foreground="@mipmap/ic_launcher_foreground"
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:translationX="300dp"
         android:translationY="100dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="296dp"
+<<<<<<< HEAD
         tools:layout_editor_absoluteY="100dp" />
+=======
+        tools:layout_editor_absoluteY="100dp"></Button>
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,19 +3,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.SearchView
+=======
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.SearchView
+<<<<<<< HEAD
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:id="@+id/search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:translationX="40dp"
         android:translationY="100dp"></androidx.appcompat.widget.SearchView>
 
+<<<<<<< HEAD
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+=======
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+=======
+    android:id="@+id/search"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:translationX="40dp"
+    android:translationY="100dp"></androidx.appcompat.widget.SearchView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 1dd26429005ba346adffec304c66e08294c72f4f
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:textColor="@color/purple_500"
         android:text="Я попал в ДТП. Что делать?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -23,15 +52,25 @@
         android:translationY="180dp" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/button_for_DTP_car"
         android:layout_width="116dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF5722"
         android:text="НА МАШИНЕ"
+=======
+        android:onClick="third_activity"
+        android:id="@+id/button1_for_car"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="На машине"
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:translationX="70dp"
         android:translationY="230dp" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/button_for_DTP_kik"
         android:layout_width="126dp"
         android:layout_height="wrap_content"
@@ -40,6 +79,16 @@
         android:translationX="230dp"
         android:translationY="230dp"/>
 
+=======
+        android:onClick="third_activity"
+        android:id="@+id/button1_for_kik"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="На самокате"
+        android:translationX="230dp"
+        android:translationY="230dp" />
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,6 +97,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:translationX="105dp"
         android:translationY="300dp"/>
+<<<<<<< HEAD
 
     <Button
         android:id="@+id/button_for_PDD_car"
@@ -64,6 +114,25 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#FF5722"
         android:text="САМОКАТА"
+=======
+    <Button
+        android:onClick="third_activity"
+        android:id="@+id/button2_for_car"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="Машины"
+        android:translationX="70dp"
+        android:translationY="340dp" />
+
+    <Button
+        android:onClick="third_activity"
+        android:id="@+id/button2_for_kik"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="Самоката"
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:translationX="230dp"
         android:translationY="340dp" />
 
@@ -72,6 +141,7 @@
         android:layout_width="274dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+<<<<<<< HEAD
         android:text="Горячая линия"
         android:translationX="10dp"
         android:translationY="70dp"
@@ -81,10 +151,18 @@
 
     <Button
         android:id="@+id/button7"
+=======
+        android:translationX="10dp"
+        android:translationY="70dp"
+        android:text="Горячая линия"/>
+
+    <Button
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:layout_width="277dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Формы претензий"
+<<<<<<< HEAD
         android:translationX="10dp"
         android:translationY="130dp"
         tools:layout_editor_absoluteX="10dp"
@@ -92,15 +170,26 @@
 
     <Button
         android:id="@+id/button8"
+=======
+        android:translationY="130dp"
+        android:translationX="10dp"/>
+
+    <Button
+        android:onClick="content_activity"
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:layout_width="273dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Общение с инспектором"
         android:translationX="10dp"
+<<<<<<< HEAD
         android:translationY="190dp"
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="190dp" />
 
+=======
+        android:translationY="190dp"></Button>
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
     <include
         layout="@layout/content_layout2"
         android:foreground="@drawable/ic_launcher_background" />

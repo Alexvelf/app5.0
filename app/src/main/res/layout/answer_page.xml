@@ -83,7 +83,10 @@
         android:text="←"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
     <Button
         android:id="@+id/home"
         android:layout_width="132dp"
@@ -93,6 +96,9 @@
         android:translationX="139dp"
         android:onClick="home_activity"
         tools:ignore="MissingConstraints" />
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
 </androidx.constraintlayout.widget.ConstraintLayout>
