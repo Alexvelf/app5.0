@@ -86,7 +86,10 @@
         android:foregroundTint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
     <Button
         android:id="@+id/home"
         android:layout_width="50dp"
@@ -96,8 +99,15 @@
         android:backgroundTint="@color/white"
         android:foreground="@mipmap/ic_launcher_foreground"
         android:onClick="home_activity"
+<<<<<<< HEAD
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+        tools:ignore="MissingConstraints" />
+<<<<<<< HEAD
+>>>>>>> 209ca33f70894cf1f4740ee6a598b24b7f1167c6
 
 
+=======
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
 </androidx.constraintlayout.widget.ConstraintLayout>

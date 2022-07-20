@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Github/Github3/app5.0/app/src/main/res/layout/activity_answer.xml" value="0.21784420289855072" />
         <entry key="..\:/Github/Github3/app5.0/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
         <entry key="..\:/Github/Github3/app5.0/app/src/main/res/layout/activity_main2.xml" value="0.21784420289855072" />
@@ -21,6 +22,51 @@
         <entry key="..\:/Ilya/app5.0-9b87a19bc69a3d099a2b9192abf17925abe3896a/app/src/main/res/layout/activity_main3.xml" value="0.16666666666666666" />
         <entry key="..\:/Ilya/app5.0-9b87a19bc69a3d099a2b9192abf17925abe3896a/app/src/main/res/layout/activity_test_answer1.xml" value="0.16666666666666666" />
         <entry key="..\:/Ilya/app5.0-9b87a19bc69a3d099a2b9192abf17925abe3896a/app/src/main/res/layout/answer_page.xml" value="0.16666666666666666" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_answer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_main2.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_main3.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_answer1.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_answer2.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_answer3.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_answer4.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_info1.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_question1.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_question2.xml" value="0.14316239316239315" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/activity_test_question3.xml" value="0.130859375" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/answer_page.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/contacts.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/content_layout.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/content_layout2.xml" value="0.1" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/content_scrolling.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/item_layout.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/layout/test_page.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/alexv/Downloads/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app5.0-9735a009b40981659ac0a4d8fd510afcf9be2631/app/src/main/res/menu/popup_menu.xml" value="0.1" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/activity_main2.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/activity_main3.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/answer_page.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/contacts.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/content_layout.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/item_layout.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/list_of_questions.xml" value="0.21784420289855072" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/layout/content_layout2.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/Github2/app5.0/app/src/main/res/menu/popup_menu.xml" value="0.25416666666666665" />
+=======
+        <entry key="..\:/Github/app5.0/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Github/app5.0/app/src/main/res/layout/content_layout2.xml" value="0.21784420289855072" />
+        <entry key="..\:/Github/app5.0/app/src/main/res/menu/popup_menu.xml" value="0.25416666666666665" />
+>>>>>>> 1dd26429005ba346adffec304c66e08294c72f4f
+>>>>>>> 2e94e01c22892f623d82b5e00e20da28eae5070d
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
+>>>>>>> 209ca33f70894cf1f4740ee6a598b24b7f1167c6
         <entry key="..\:/app3/app/src/main/res/layout/activity_main.xml" value="0.11684782608695653" />
         <entry key="..\:/app3/app/src/main/res/layout/activity_main2.xml" value="0.11684782608695653" />
         <entry key="..\:/app3/app/src/main/res/layout/activity_main3.xml" value="0.12545289855072464" />

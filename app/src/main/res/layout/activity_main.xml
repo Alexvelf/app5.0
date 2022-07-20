@@ -101,6 +101,15 @@
     <include
         layout="@layout/content_layout2"
         android:foreground="@drawable/ic_launcher_background" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:layout_gravity="bottom|right"
+        android:translationX="-10dp"
+        android:translationY="-10dp"
+        android:background="@color/first"
+        app:srcCompat="@android:drawable/stat_sys_speakerphone" />
 
     <ImageView
         android:id="@+id/imageView"
