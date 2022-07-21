@@ -3,7 +3,9 @@ package com.example.myapplication3
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication3.databinding.ItemLayoutBinding
 
@@ -27,11 +29,11 @@ class ItemAdapter(private val context: Context, private val foodItemList:Mutable
 
 
     class FoodItemViewHolder(foodItemLayoutBinding: ItemLayoutBinding)
-        : RecyclerView.ViewHolder(foodItemLayoutBinding.root){
+        : RecyclerView.ViewHolder(foodItemLayoutBinding.root) {
 
         private val binding = foodItemLayoutBinding
 
-        fun bind(listItem: ListItem, context: Context){
+        fun bind(listItem: ListItem, context: Context) {
             binding.foodItemNameTV.text = listItem.name
 //                itemView.setOnClickListener() {
 //                val i = Intent(context, ContentActivity::class.java).apply {
@@ -39,6 +41,5 @@ class ItemAdapter(private val context: Context, private val foodItemList:Mutable
 //                context.startActivity(i)
             //}
         }
-
     }
 }

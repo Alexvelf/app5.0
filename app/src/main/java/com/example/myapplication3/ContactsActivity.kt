@@ -5,7 +5,10 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+<<<<<<< HEAD
 import android.widget.Button
+=======
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
 import android.widget.TextView
 
 class ContactsActivity : AppCompatActivity() {
@@ -32,5 +35,9 @@ class ContactsActivity : AppCompatActivity() {
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
             startActivity(intent)
         }
+    }
+    fun home_activity(view: View){
+        val Home_acitivity=Intent(this,MainActivity::class.java)
+        startActivity(Home_acitivity)
     }
 }
