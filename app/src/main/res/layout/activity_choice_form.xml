@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceFormActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/form_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Как обжаловать? "
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Для начала следует определиться, куда именно Вы хотите обжаловать чьи-то действия или чьё-то решение. Вы имеете право обжаловать: а) В суд, в т.ч. по месту рассмотрения дела; б) Вышестоящему лицу того отдела, где работает инспектор ГИБДД; в) В вышестоящий ГИБДД (по региону); г) В иной орган (если постановление вынесено, например, МАДИ – то в уполномоченный орган МАДИ). Если Вы не знаете, куда подавать или боитесь, что подадите не туда – не переживайте и подавайте всё равно. В крайнем случае в течение 3 дней жалобу перенаправят на расс "
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Подаю в суд! " />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Подаю начальнику ГИБДД/в ГИБДД по моему региону/В МАДИ!" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
