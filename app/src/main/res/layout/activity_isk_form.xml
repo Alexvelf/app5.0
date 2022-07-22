@@ -24,18 +24,14 @@
             android:layout_marginLeft="5sp"
             android:layout_marginTop="5sp"
             android:layout_marginBottom="5sp"
-            android:text="Правила подачи иска"
+            android:text="@string/isk_title"
             android:textColor="@color/second"
             android:textSize="34sp" />
 
         <TextView
             android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5sp"
-            android:layout_marginRight="5sp"
-            android:text="1. Проверьте, что в Вашем иске отражены: а) Наименование суда; б) Ваше ФИО, адрес, телефон, электронная почта, дата и место рождения. По желанию можете указать сведения о высшем юридическом образовании (если собираетесь лично выступать); в) Сведения о представителе (то же, что в пункте б), но без даты и места рождения); г) Ответчик: наименование, адрес, телефон, адрес электронной почты; д) Какие Ваши права были нарушены; е) Ваши требования и основания Ваших требований; ж) Сведения о том, что Вы ранее подавали жалобу (если подавали) и об исходе её рассмотрения; з) Документы, которые Вы прилагаете к иску. 2. Помните, что Вы не платите госпошлину при обжаловании постановления. Не забудьте приложить копию обжалуемого постановления к жалобе, а также копию протокола. *См. ст. 30.2, 30.3. КоАП РФ, ст. 125 КАС РФ ВАЖНО! Срок обжалования постановления – 10 суток со дня вручения или получения Вами копии постановления. Вы можете подать ходатайство суду о восстановлении пропущенного срока, если Вы, например, болели в этот период. Приложите справку/больничный/иной нужный документ в зависимости от причины пропуска срока к Вашему ходатайству в подтверждение. Но лучше не пропускать срок, а сразу же подавать иск"
-            android:textSize="20sp" />
+            android:text="@string/isk_instruction"
+            style="@style/form_text_style" />
 
     </LinearLayout>
 
@@ -43,7 +39,7 @@
         android:id="@+id/button11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Образец иска (PDF)"
+        android:text="@string/isk_button"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

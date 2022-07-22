@@ -4,7 +4,9 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.widget.Button
+import android.widget.TextView
 
 class ComplaintFormActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,5 +20,8 @@ class ComplaintFormActivity : AppCompatActivity() {
             )
             startActivity(i)
         }
+
+        val text = findViewById<TextView>(R.id.textView5)
+        text.setMovementMethod(ScrollingMovementMethod())
     }
 }

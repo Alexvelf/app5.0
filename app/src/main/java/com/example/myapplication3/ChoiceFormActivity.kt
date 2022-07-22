@@ -2,7 +2,9 @@ package com.example.myapplication3
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class ChoiceFormActivity : AppCompatActivity() {
@@ -20,5 +22,8 @@ class ChoiceFormActivity : AppCompatActivity() {
             val intent = Intent(this, ComplaintFormActivity::class.java)
             startActivity(intent)
         }
+
+        val text = findViewById<TextView>(R.id.textView9)
+        text.setMovementMethod(ScrollingMovementMethod())
     }
 }
