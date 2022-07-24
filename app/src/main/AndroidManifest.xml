@@ -14,11 +14,20 @@
         android:theme="@style/Theme.MyApplication3"
         tools:targetApi="31">
         <activity
+            android:name=".IskFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceFormActivity"
+            android:exported="false" />
+        <activity
             android:name=".DictionaryActivity"
+            android:exported="true"
             android:label="@string/title_activity_dictionary"
             android:theme="@style/Theme.MyApplication3.NoActionBar"
-            android:exported="true"
-            tools:ignore="AppLinkUrlError"/>
+            tools:ignore="AppLinkUrlError" />
         <activity
             android:name=".test.TestAnswer4"
             android:exported="false" />
@@ -55,8 +64,10 @@
             tools:ignore="AppLinkUrlError">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:host="stack"/>
+
+                <data android:host="stack" />
                 <data android:scheme="myappscheme" />
             </intent-filter>
         </activity>
