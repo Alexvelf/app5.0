@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class ContentActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +19,13 @@ class ContentActivity: AppCompatActivity() {
         var button: ImageView = findViewById(R.id.imageView)
         button.setOnClickListener {
             val intent = Intent(this, ContactsActivity::class.java)
+            startActivity(intent)
+        }
+        val button1 = findViewById<Button>(R.id.home)
+
+        button1.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("button", 1)    // номер кнопки передается в следующий Activity (т. е. список вопросов), чтобы можно было понять, какая кнопка была нажата, и вывести нужные вопросы из базы
             startActivity(intent)
         }
 
@@ -36,5 +44,9 @@ class ContentActivity: AppCompatActivity() {
                 //http://www.consultant.ru/document/cons_doc_LAW_280037/
         }
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
 }

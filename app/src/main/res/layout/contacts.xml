@@ -49,7 +49,11 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="Скорая помощь 103"
+=======
+        android:text="@string/contacts_email2"
+>>>>>>> 0e0a4ade4db65924c64243549df85303f6b773ca
         android:textColor="@color/third"
         android:textSize="25sp"
         android:translationY="210dp"
@@ -109,6 +113,7 @@
         app:layout_constraintVertical_bias="0.813" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/back"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -121,6 +126,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+=======
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
         android:id="@+id/home"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -131,4 +138,12 @@
         android:onClick="home_activity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0f4c5375bb5542d1336a7c3abfa402748b72e0e0
+>>>>>>> 0e0a4ade4db65924c64243549df85303f6b773ca
 </androidx.constraintlayout.widget.ConstraintLayout>
