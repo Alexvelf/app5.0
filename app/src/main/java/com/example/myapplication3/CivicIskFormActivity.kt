@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.text.method.ScrollingMovementMethod
 import android.widget.Button
 import android.widget.TextView
@@ -21,8 +22,8 @@ class CivicIskFormActivity : AppCompatActivity() {
             startActivity(i)
         }
 
-
         val text = findViewById<TextView>(R.id.textView5)
         text.setMovementMethod(ScrollingMovementMethod())
+        text.movementMethod = LinkMovementMethod.getInstance()
     }
 }

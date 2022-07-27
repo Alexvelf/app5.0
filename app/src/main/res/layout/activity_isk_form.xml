@@ -30,15 +30,8 @@
             android:id="@+id/textView5"
             style="@style/form_text_style"
             android:layout_marginStart="7sp"
-            android:text="@string/isk_instruction" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/choice_form_link"
-            android:textColor="#2196F3" />
+            android:text="@string/isk_instruction"
+            android:linksClickable="true"/>
 
     </LinearLayout>
 
